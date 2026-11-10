@@ -5,12 +5,26 @@ body {
   letter-spacing: 0.02em;
   background-color: #fff;
   color: #434455;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 
 a {
   text-decoration: none;
@@ -21,6 +35,11 @@ address {
   font-style: normal;
 }
 
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 /* Button */
 button {
@@ -35,21 +54,41 @@ button {
   background-color: #4d5ae5;
 }
 
-.hero-btn {}
+.hero-btn {
+  display: block;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  max-width: 169px;
+  margin: 0 auto;
+}
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
 
-
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
 
 /* Base Styles */
 .accent {
   color: #4d5ae5;
 }
 
-.section {}
+.section {
+  padding: 120px 0;
+}
 
 .section-title {
   font-weight: 700;

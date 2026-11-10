@@ -1,5 +1,11 @@
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+.hero .container {
+
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -8,4 +14,8 @@
   line-height: 1.07143;
   text-align: center;
   color: #fff;
+
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }

@@ -1,10 +1,16 @@
-.features {}
+.features {
+  padding: 120px 0;
+}
 
 .features-title {}
 
-.features-list {}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
 
 .features-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;

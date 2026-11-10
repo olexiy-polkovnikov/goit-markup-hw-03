@@ -1,12 +1,14 @@
-.features {
-  padding: 120px 0;
-}
+.features {}
 
 .features-title {}
 
 .features-list {
   display: flex;
   gap: 24px;
+}
+
+.features-item {
+  flex-basis: 264px;
 }
 
 .features-subtitle {
